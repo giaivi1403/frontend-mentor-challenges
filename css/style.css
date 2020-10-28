@@ -1,0 +1,53 @@
+:root {
+  --very-dark: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish: hsl(303, 10%, 53%);
+  --light-grayish: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  color: var(--very-dark);
+}
+
+.wrap {
+  width: 1100px;
+  margin: 100px auto;
+}
+
+div {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.web-list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  float: left;
+  text-decoration: none;
+  color: var(--dark-grayish);
+}
+
+.list-item:active {
+  color: red;
+}
+
+.list-item:visited {
+  color: red;
+}
+
+.attribution {
+  margin-top: 500px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.attribution-link {
+  text-decoration: none;
+  color: var(--soft-pink);
+}
