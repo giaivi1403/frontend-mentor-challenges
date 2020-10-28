@@ -28,7 +28,9 @@ div {
 }
 
 .list-item {
-  float: left;
+  text-align: left;
+  display: block;
+  padding: 20px;
   text-decoration: none;
   color: var(--dark-grayish);
 }
@@ -42,7 +44,7 @@ div {
 }
 
 .attribution {
-  margin-top: 500px;
+  margin-top: 200px;
   font-size: 16px;
   font-weight: 700;
 }

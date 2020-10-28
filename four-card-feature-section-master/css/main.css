@@ -1,0 +1,133 @@
+.container {
+  margin: 60px auto 100px;
+  width: 1140px;
+  max-width: 100%;
+}
+
+.wrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+
+.header__top {
+  font-size: 30px;
+  color: var(--very-dark-blue);
+  font-weight: 200;
+  margin: 0;
+}
+
+.header__body {
+  font-size: 30px;
+  color: var(--very-dark-blue);
+  font-weight: 700;
+  margin: 0;
+}
+
+.header p {
+  font-size: 14px;
+  color: var(--grayish-blue);
+  text-align: center;
+  font-weight: 400;
+}
+
+.box__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.box {
+  width: 350px;
+  border-radius: 6px;
+  box-shadow: 0 6px 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.box__header {
+  margin: 0;
+  color: var(--very-dark-blue);
+  font-weight: 700;
+}
+
+.box p {
+  font-size: 14px;
+  color: var(--grayish-blue);
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.box__img {
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+}
+
+.box-push {
+  transform: translateY(50%);
+}
+
+.box-cyan::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 4px;
+  width: 100%;
+  background-color: var(--cyan-color);
+  border-radius: 12px;
+}
+
+.box-red::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 4px;
+  width: 100%;
+  background-color: var(--red-color);
+  border-radius: 12px;
+}
+
+.box-blue::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 4px;
+  width: 100%;
+  background-color: var(--blue-color);
+  border-radius: 12px;
+}
+
+.box-orange::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 4px;
+  width: 100%;
+  background-color: var(--orange-color);
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 760px) {
+  .box-push {
+    transform: translateY(0);
+  }
+}
