@@ -1,0 +1,124 @@
+.header {
+  display: flex;
+  margin-bottom: 74px;
+}
+
+.header__left {
+  width: 424px;
+  position: relative;
+  top: -10px;
+}
+
+.header__right {
+  width: 538px;
+}
+
+.header__left-heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--very-dark);
+  margin: 14px 0;
+}
+
+.header__left span {
+  font-size: 14px;
+  color: var(--dark-grayish);
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.header__right-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 100px;
+}
+
+.header__right-item {
+  width: 440px;
+  height: 56px;
+  border-radius: 6px;
+  background-color: #f7f2f8;
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  transform: translateX(calc(var(--value) * 48px));
+  color: var(--very-dark);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.header__right-rate {
+  display: inline-block;
+}
+
+.header__right-icon {
+  font-size: 14px;
+  color: #ef9240;
+  margin: 0 4px;
+}
+
+.header__right-icon:first-child {
+  margin-left: 30px;
+}
+
+.header__right-icon:last-of-type {
+  margin-right: 34px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 232px;
+  width: 350px;
+  border-radius: 6px;
+  background-color: var(--very-dark);
+  padding: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--white);
+  line-height: 20px;
+  transform: translateY(calc(14px * var(--value-content)));
+}
+
+.content__box-user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.user__img {
+  margin-right: 20px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user__name {
+  font-size: 12px;
+  color: var(--white);
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.user__verify {
+  font-size: 12px;
+  color: var(--soft-pink);
+}
+
+.attribution {
+  margin-top: 100px;
+  color: var(--very-dark);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.attribution .attribution-link {
+  text-decoration: none;
+  color: var(--soft-pink);
+}

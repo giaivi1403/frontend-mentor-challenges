@@ -1,0 +1,155 @@
+.container {
+  margin: auto;
+  min-height: 100vh;
+  width: 1200px;
+  padding: 200px 140px 140px;
+}
+
+.wrap {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.box-2 {
+  flex: 2;
+  height: 150px;
+}
+
+.box {
+  background-color: var(--dark-blue);
+  padding: 20px 40px 20px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-1 {
+  margin-right: 28px;
+  flex: 1;
+  border-top-right-radius: 100px;
+  height: 200px;
+}
+
+.heading {
+  margin-top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo__container {
+  height: 48px;
+  width: 48px;
+  background-color: var(--very-dark-blue);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+}
+
+.logo__container:first-child {
+  margin-left: 0;
+}
+
+.attribution {
+  margin-top: 200px;
+  text-align: center;
+  color: var(--very-dark);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.attribution .attribution-link {
+  text-decoration: none;
+  color: var(--soft-pink);
+}
+
+.content {
+  color: var(--grayish-blue);
+  line-height: 20px;
+  position: relative;
+}
+
+small > span {
+  color: var(--pale-blue);
+  font-weight: 400;
+}
+
+.storage small {
+  color: var(--pale-blue);
+  font-weight: 400;
+}
+
+.mark {
+  width: 176px;
+  background-color: #fff;
+  position: absolute;
+  top: -80px;
+  right: 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 20px 0;
+  border-radius: 8px;
+  border-bottom-right-radius: 0;
+  color: #000000;
+}
+
+.mark::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  border-top: 20px solid #fff;
+  border-left: 20px solid transparent;
+}
+
+.mark > span {
+  font-size: 10px;
+  color: var(--grayish-blue);
+  position: relative;
+  top: -6px;
+}
+
+.storage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  width: 100%;
+  height: 20px;
+  border-radius: 20px;
+  background-color: var(--very-dark-blue);
+  margin: 16px 0 10px;
+  display: flex;
+  align-items: center;
+  z-index: 0;
+}
+
+.loading {
+  width: 60%;
+  background-image: var(--primary-color);
+  border-radius: 20px;
+  height: 14px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.loading::after {
+  position: absolute;
+  right: 2px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}

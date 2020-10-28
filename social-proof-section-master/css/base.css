@@ -1,0 +1,27 @@
+:root {
+  --very-dark: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish: hsl(303, 10%, 53%);
+  --light-grayish: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.wrap {
+  width: 1110px;
+  margin: 100px auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  background: url(/images/bg-pattern-top-desktop.svg) no-repeat,
+    url(/images/bg-pattern-bottom-desktop.svg) bottom right no-repeat;
+}

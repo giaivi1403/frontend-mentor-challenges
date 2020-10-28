@@ -1,0 +1,18 @@
+:root {
+  --cyan-color: hsl(179, 62%, 43%);
+  --bright-color: hsl(71, 73%, 54%);
+  --light-gray-color: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+  --very-dark: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
