@@ -1,0 +1,84 @@
+.container {
+  width: 1300px;
+  margin: auto;
+}
+
+.wrapper {
+  padding: 40px 20px;
+}
+
+.logo {
+  font-family: "Open Sans", sans-serif;
+}
+.body {
+  margin-top: 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.body__desktop {
+  margin-right: 60px;
+}
+
+.body__heading {
+  margin: 50px 0 30px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.body__text {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.body__btn {
+  margin-top: 28px;
+  padding: 20px 0;
+  max-width: 200px;
+  border-radius: 100px;
+  font-size: 18px;
+  background-color: #fff;
+  color: var(--violet-color);
+  text-align: center;
+  line-height: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.body__btn:hover {
+  background-color: #8e4ec6;
+  color: #fff;
+}
+
+.bottom__icon {
+  text-align: right;
+  margin: 10px 0 0;
+}
+
+.bottom__icon-link {
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.attribution {
+  margin: 60px 0;
+  color: var(--very-dark);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.attribution .attribution-link {
+  text-decoration: none;
+  color: var(--soft-pink);
+}
