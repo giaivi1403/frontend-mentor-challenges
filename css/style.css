@@ -23,33 +23,55 @@ div {
 }
 
 .web-list {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
 }
 
-.list-item {
-  text-align: left;
-  display: block;
-  padding: 20px;
-  text-decoration: none;
-  color: var(--dark-grayish);
-}
-
-.list-item:active {
-  color: red;
-}
-
-.list-item:visited {
-  color: red;
-}
-
 .attribution {
+  width: 100%;
+  height: 50px;
   margin-top: 200px;
   font-size: 16px;
   font-weight: 700;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
 }
 
 .attribution-link {
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
   text-decoration: none;
   color: var(--soft-pink);
+  text-align: center;
+}
+
+.web-list li {
+  margin: 10px;
+  width: 346px;
+}
+
+.web-list li a {
+  text-decoration: none;
+  color: var(--very-dark);
+  text-align: center;
+  font-size: 14px;
+}
+
+.web-list li a img {
+  width: 340px;
+  height: 200px;
+  object-fit: contain;
+  transition: transform ease-in 0.2s;
+}
+
+.web-list li a img:hover {
+  transform: scale(1.05);
 }
