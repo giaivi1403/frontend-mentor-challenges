@@ -16,7 +16,6 @@ body {
   background-image: url(../images/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: top;
   font-family: "Bai Jamjuree", sans-serif;
   margin: 0;
 }
@@ -34,7 +33,9 @@ body {
 }
 
 .btn-bgGreen {
+  --light-cyan: hsl(171, 79%, 81%);
   background-color: var(--strong-cyan);
+  box-shadow: 0 10px 10px var(--light-cyan);
 }
 
 .btn-bgGreen:hover {
@@ -42,7 +43,9 @@ body {
 }
 
 .btn-bgBlue {
+  --bs-blue: hsl(233, 56%, 85%);
   background-color: var(--light-blue);
+  box-shadow: 0 10px 10px var(--bs-blue);
 }
 
 .btn-bgBlue:hover {
